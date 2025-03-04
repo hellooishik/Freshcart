@@ -1,6 +1,6 @@
 import { View, Text, TextInput, Button, Alert } from 'react-native';
 import React, { useState } from 'react';
-import { auth } from '../../constants/firebaseConfig';
+import { auth } from '../utils/firebaseConfig';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
 
 export default function ProfileScreen() {
