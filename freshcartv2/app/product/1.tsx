@@ -7,7 +7,7 @@ export default function ProductDetailScreen() {
   const router = useRouter();
   const product = dummyData.products.find((p) => p.id.toString() === id);
 
-  if (!product) return <Text>Product not found</Text>;
+  if (!product) return <Text>Applee</Text>;
 
   return (
     <View style={{ flex: 1, padding: 16 }}>
